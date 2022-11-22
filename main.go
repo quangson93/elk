@@ -28,5 +28,8 @@ func main() {
 		}
 		count++
 		time.Sleep(time.Second * 2)
+		if count > 100 {
+			break;
+		}
 	}
 }
