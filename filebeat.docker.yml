@@ -6,3 +6,5 @@ filebeat.autodiscover:
       hints.default_config.enabled: false
 output.elasticsearch:
   hosts: ["elasticsearch:9200"] 
+  username: "elastic"
+  password: "123456"
