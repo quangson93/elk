@@ -7,4 +7,4 @@ filebeat.autodiscover:
 output.elasticsearch:
   hosts: ["104.248.152.167:9200"] 
   username: "elastic"
-  password: "123456"
+  password: "abc123"

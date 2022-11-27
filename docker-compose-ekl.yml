@@ -22,7 +22,7 @@ services:
       co.elastic.logs/enabled: false
     environment:
     - ELASTICSEARCH_USERNAME=elastic
-    - ELASTICSEARCH_PASSWORD=123456
+    - ELASTICSEARCH_PASSWORD=abc123
     image: docker.elastic.co/kibana/kibana:7.14.0
     configs:
     - kibana_config
