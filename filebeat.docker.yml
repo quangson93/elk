@@ -5,6 +5,6 @@ filebeat.autodiscover:
       # only containers with co.elastic.logs/enabled: true will be discovered
       hints.default_config.enabled: false
 output.elasticsearch:
-  hosts: ["elasticsearch:9200"] 
+  hosts: ["104.248.152.167:9200"] 
   username: "elastic"
   password: "123456"
