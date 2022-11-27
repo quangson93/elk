@@ -27,9 +27,6 @@ func main() {
 				zap.Int("count", count))
 		}
 		count++
-		time.Sleep(time.Second * 2)
-		if count > 100 {
-			break;
-		}
+		time.Sleep(time.Second * 30)
 	}
 }
